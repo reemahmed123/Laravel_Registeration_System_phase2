@@ -1,0 +1,9 @@
+.phone-prefix {
+    height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+    min-height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+    line-height: 1.25;
+}
+
+.phone-prefix:focus {
+    box-shadow: none;
+}
